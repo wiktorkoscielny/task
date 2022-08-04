@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*:root {
+  --white: #f2f2f2;
+  --dark-white: #e5e9f2;
+  --grey: #47525e;
+  --dark-gray: #7b8692;
+}
+#container
+ {
+  overflow: hidden;
+}
+.mx-6 {
+  margin: 0 6rem 0 6rem;
+}
+
+/* NAVBAR */
+#nav {
+  background: rgba(199, 210, 223, 1);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#btn_logo {
+  background: rgba(129, 144, 164, 1);
+  border: 1px solid transparent;
+  color: var(--white);
+  width: 8rem;
+}
+#btn_cart {
+  background: var(--grey);
+  border: 1px solid transparent;
+  color: var(--white);
+}
+.nav-link {
+  color: var(--dark-gray);
+  font-size: 1.3rem;
+  margin: 0 2rem 0 0;
+  padding: 1rem 0 1rem 0;
+}
+.navbar-nav .nav-link.active {
+  color: var(--dark-gray);
+  background-color: aliceblue;
+  margin: 0 2rem 0 2rem;
+  width: 7rem;
+  text-align: center;
+}
+.navbar-nav .nav-link.active {
+  color: var(--dark-gray);
+  background-color: var(--dark-white);
+}
+
+#wrapper {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* LEFT CONTAINER */
+#left_container {
+  height: 80vh;
+  border: 1px solid var(--dark-white);
+  border-radius: 1%;
+  background: var(--dark-white);
+}
+
+/* RIGHT CONTAINER */
+#right_container {
+  margin-top: -1.5%;
+}
+
+#right_row {
+  height: 80vh;
+}
+#right_column {
+  width: 80%;
+  margin: 0 0 0 7%;
+  padding: 0;
+}
+#title_wrapper {
+  height: 15vh;
+  margin: 0;
+  padding: 0;
+}
+
+#title_wrapper h1 {
+  color: var(--grey);
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 0;
+}
+#img_container {
+  height: 25vh;
+  background-color: var(--dark-white);
+}
+#text_wrapper {
+  height: 25vh;
+  padding: 10% 0 0 0;
+}
+#text_wrapper h2 {
+  color: var(--grey);
+  font-size: 1.5rem;
+}
+#text_wrapper p {
+  color: #8795a8;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+#footer_container {
+  background-color: var(--grey);
+  padding: 0;
+}
+#btn_footer_div {
+  padding-left: 0;
+}
+#btn_footer {
+  background-color: #8190a4;
+  border: 1px solid #8190a4;
+  width: 90%;
+  margin-left: 0;
+  padding-left: 0;
+  height: 2rem;
+}
+#last_col_footer {
+  padding: 0;
+}
+.col-2 > ul.nav > li .nav-link {
+  color: var(--white);
+  font-size: 1rem;
+}
+.col-4 form h5 {
+  color: var(--white);
+}
+#footer_btn {
+  background-color: var(--white);
+  border: 1px solid transparent;
+  color: #5a646f;
+}
+#social_container {
+  margin-left: 0;
+  padding-left: 0;
+}
+.fa-brands {
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem 0 0;
+}
